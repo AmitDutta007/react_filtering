@@ -1,0 +1,38 @@
+button,select,input, .header, input::placeholder{
+  color:#fff
+}
+.header{
+  font-size: 24px;
+  font-weight: 600;
+}
+h3{
+  font-size: 20px;
+}
+p{
+  color: #374151ff;
+}
+.priceColor{
+  color: #000;
+}
+
+@media(max-width:767.98px){
+  select{
+    background-color: rgb(239, 239, 239) !important;
+    color: grey;
+  }
+  select option{
+    color: #000;
+  }
+  input{
+    background-color: #fff !important;
+    border: 1px solid grey;
+    color: grey;
+  }
+  .header{
+    text-align: center;
+  }
+  input::placeholder{
+    color:grey
+  }
+}
+
